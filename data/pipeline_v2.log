@@ -1,0 +1,61 @@
+gen complete, grading Wed Oct  7 08:47:22 AKDT 2026
+todo: 2898 (skipping 0 already graded)
+100 graded, 0.07s/item, ETA 3m
+200 graded, 0.06s/item, ETA 3m
+300 graded, 0.06s/item, ETA 3m
+400 graded, 0.06s/item, ETA 3m
+500 graded, 0.06s/item, ETA 2m
+600 graded, 0.06s/item, ETA 2m
+700 graded, 0.06s/item, ETA 2m
+800 graded, 0.06s/item, ETA 2m
+900 graded, 0.06s/item, ETA 2m
+1000 graded, 0.06s/item, ETA 2m
+1100 graded, 0.06s/item, ETA 2m
+1200 graded, 0.06s/item, ETA 2m
+1300 graded, 0.06s/item, ETA 2m
+1400 graded, 0.06s/item, ETA 2m
+1500 graded, 0.06s/item, ETA 1m
+1600 graded, 0.06s/item, ETA 1m
+1700 graded, 0.06s/item, ETA 1m
+1800 graded, 0.06s/item, ETA 1m
+1900 graded, 0.06s/item, ETA 1m
+2000 graded, 0.07s/item, ETA 1m
+2100 graded, 0.07s/item, ETA 1m
+2200 graded, 0.07s/item, ETA 1m
+2300 graded, 0.07s/item, ETA 1m
+2400 graded, 0.07s/item, ETA 1m
+2500 graded, 0.07s/item, ETA 0m
+2600 graded, 0.07s/item, ETA 0m
+2700 graded, 0.07s/item, ETA 0m
+2800 graded, 0.06s/item, ETA 0m
+DONE 2898 graded, total lines now 2898
+grade complete Wed Oct  7 08:50:31 AKDT 2026
+train 5103 test 895 soft-test 162
+family counts: {'load-bearing': 1417, 'coherence': 1846, 'risk': 509, 'go-no-go': 1705, 'reversible': 521}
+/home/eileen/projects/intuition/src/train_student_v2.py:118: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.enc = nn.TransformerEncoder(enc, L)
+params: 12.45M device cuda
+ep 0: train_wKL 0.4966 test_KL 0.2763 softKL 0.1103 (15s)
+ep 1: train_wKL 0.4018 test_KL 0.2681 softKL 0.0849 (23s)
+ep 2: train_wKL 0.4145 test_KL 0.2674 softKL 0.1369 (30s)
+ep 3: train_wKL 0.3802 test_KL 0.2269 softKL 0.1344 (38s)
+ep 4: train_wKL 0.3208 test_KL 0.2180 softKL 0.1095 (45s)
+ep 5: train_wKL 0.2965 test_KL 0.2085 softKL 0.1212 (53s)
+ep 6: train_wKL 0.2260 test_KL 0.2167 softKL 0.1086 (60s)
+ep 7: train_wKL 0.1823 test_KL 0.2008 softKL 0.1248 (68s)
+ep 8: train_wKL 0.1287 test_KL 0.2086 softKL 0.1244 (76s)
+ep 9: train_wKL 0.0977 test_KL 0.2124 softKL 0.1262 (83s)
+ep 10: train_wKL 0.0756 test_KL 0.2194 softKL 0.1805 (91s)
+ep 11: train_wKL 0.0604 test_KL 0.2107 softKL 0.1554 (98s)
+ep 12: train_wKL 0.0502 test_KL 0.2132 softKL 0.1591 (106s)
+ep 13: train_wKL 0.0466 test_KL 0.2148 softKL 0.1565 (113s)
+family coherence: test KL 0.1128 (n=276)
+family go-no-go: test KL 0.3502 (n=255)
+family load-bearing: test KL 0.0711 (n=211)
+family reversible: test KL 0.4482 (n=77)
+family risk: test KL 0.2931 (n=76)
+/home/eileen/projects/intuition/src/train_student_v2.py:179: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(model, dummy, f"{ROOT}/models/intuition_student_v2.onnx",
+saved /home/eileen/projects/intuition/models/intuition_student_v2.pt + ONNX
+CPU latency (d320/8L, 1 thread): 16.2 ms
+train complete Wed Oct  7 08:52:50 AKDT 2026

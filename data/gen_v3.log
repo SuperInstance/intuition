@@ -1,0 +1,17 @@
+dedupe set: 3100 existing items
+coherence/murky: 502 unique (42 calls)
+coherence/clear_yes: 130 unique (11 calls)
+coherence/clear_no: 180 unique (15 calls)
+go-no-go/murky: 428 unique (36 calls)
+go-no-go/clear_yes: 103 unique (9 calls)
+go-no-go/clear_no: 144 unique (12 calls)
+reversible/murky: 309 unique (26 calls)
+reversible/clear_yes: 81 unique (7 calls)
+reversible/clear_no: 131 unique (11 calls)
+risk/murky: 300 unique (25 calls)
+risk/clear_yes: 80 unique (7 calls)
+risk/clear_no: 129 unique (11 calls)
+load-bearing/murky: 240 unique (20 calls)
+load-bearing/clear_yes: 60 unique (5 calls)
+load-bearing/clear_no: 81 unique (7 calls)
+total 2898 -> data/candidates_v2.json
