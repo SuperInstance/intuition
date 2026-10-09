@@ -1,0 +1,5 @@
+dedupe set: 5998 existing items
+reversible/murky: 707 unique (60 calls)
+reversible/clear_yes: 155 unique (13 calls)
+reversible/clear_no: 156 unique (13 calls)
+total 1018 -> data/candidates_v3.json

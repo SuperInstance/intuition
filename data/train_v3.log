@@ -1,0 +1,76 @@
+train 5968 test 1048 soft-test 165
+family counts: {'coherence': 1846, 'load-bearing': 1417, 'go-no-go': 1705, 'reversible': 1539, 'risk': 509}
+/home/eileen/projects/intuition/src/train_student_v3.py:120: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.enc = nn.TransformerEncoder(enc, L)
+--- v2 baseline per-family test KL (same split) ---
+family coherence: 0.0417 (n=276)
+family go-no-go: 0.0970 (n=255)
+family load-bearing: 0.0373 (n=211)
+family reversible: 0.4384 (n=230)
+family risk: 0.0487 (n=76)
+overall: 0.1418  soft(H>1.4): 0.0387
+params: 12.45M device cpu
+ep 0: train_wKL 0.5242 test_KL 0.3091 softKL 0.0911 (133s)
+ep 1: train_wKL 0.4770 test_KL 0.3277 softKL 0.1057 (263s)
+ep 2: train_wKL 0.4316 test_KL 0.3267 softKL 0.1079 (393s)
+ep 3: train_wKL 0.3587 test_KL 0.3246 softKL 0.1433 (522s)
+ep 4: train_wKL 0.3054 test_KL 0.2383 softKL 0.1407 (651s)
+ep 5: train_wKL 0.2374 test_KL 0.2340 softKL 0.1038 (786s)
+ep 6: train_wKL 0.1884 test_KL 0.2353 softKL 0.0975 (919s)
+ep 7: train_wKL 0.1574 test_KL 0.2333 softKL 0.1018 (1051s)
+--- v3 per-family test KL (same split) ---
+family coherence: 0.1155 (n=276)
+family go-no-go: 0.3707 (n=255)
+family load-bearing: 0.0651 (n=211)
+family reversible: 0.3533 (n=230)
+family risk: 0.3032 (n=76)
+overall: 0.2333  soft(H>1.4): 0.1018
+/home/eileen/projects/intuition/src/train_student_v3.py:196: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(model, dummy, f"{ROOT}/models/intuition_student_v3.onnx",
+Traceback (most recent call last):
+  File "/home/eileen/.local/lib/python3.14/site-packages/torch/onnx/_internal/torchscript_exporter/onnx_proto_utils.py", line 183, in _add_onnxscript_fn
+    import onnx
+ModuleNotFoundError: No module named 'onnx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/eileen/projects/intuition/src/train_student_v3.py", line 196, in <module>
+    torch.onnx.export(model, dummy, f"{ROOT}/models/intuition_student_v3.onnx",
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                      input_names=["ids"], output_names=["logits"],
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                      dynamo=False,
+                      ^^^^^^^^^^^^^
+                      opset_version=17,
+                      ^^^^^^^^^^^^^^^^^
+                      dynamic_axes={"ids": {0: "batch"}, "logits": {0: "batch"}})
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eileen/.local/lib/python3.14/site-packages/torch/onnx/__init__.py", line 337, in export
+    export(
+    ~~~~~~^
+        model,
+        ^^^^^^
+    ...<15 lines>...
+        autograd_inlining=autograd_inlining,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/eileen/.local/lib/python3.14/site-packages/torch/onnx/_internal/torchscript_exporter/utils.py", line 550, in export
+    _export(
+    ~~~~~~~^
+        model,
+        ^^^^^^
+    ...<14 lines>...
+        autograd_inlining=autograd_inlining,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/eileen/.local/lib/python3.14/site-packages/torch/onnx/_internal/torchscript_exporter/utils.py", line 1586, in _export
+    proto = onnx_proto_utils._add_onnxscript_fn(
+        proto,
+        custom_opsets,
+    )
+  File "/home/eileen/.local/lib/python3.14/site-packages/torch/onnx/_internal/torchscript_exporter/onnx_proto_utils.py", line 185, in _add_onnxscript_fn
+    raise errors.OnnxExporterError("Module onnx is not installed!") from e
+torch.onnx.OnnxExporterError: Module onnx is not installed!
