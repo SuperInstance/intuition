@@ -1,0 +1,1202 @@
+[
+ {
+  "id": "pair-001",
+  "base": "Deployed new medication tracking system for improved inventory management.",
+  "verified": "Deployed new medication tracking system for improved inventory management. Measured: 14.1min (was 516s), n=7 runs.",
+  "unverified": "Deployed new medication tracking system for improved inventory management. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-002",
+  "base": "Fixed critical billing issue, ensuring accurate patient charges.",
+  "verified": "Fixed critical billing issue, ensuring accurate patient charges. Trace IDs 9819159b\u20261eab2154 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Fixed critical billing issue, ensuring accurate patient charges. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-003",
+  "base": "Migrated pharmacy database to enhance data security and accessibility.",
+  "verified": "Migrated pharmacy database to enhance data security and accessibility. Trace IDs 4d19f715\u20264eed8856 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Migrated pharmacy database to enhance data security and accessibility. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-004",
+  "base": "Conducted comprehensive drug interaction audit with zero safety breaches.",
+  "verified": "Conducted comprehensive drug interaction audit with zero safety breaches. Verified in the dashboard: metric m_a80d = 4.2, was 323.",
+  "unverified": "Conducted comprehensive drug interaction audit with zero safety breaches. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-005",
+  "base": "Tested new dispensing system for faster patient service.",
+  "verified": "Tested new dispensing system for faster patient service. Checksums match on all 4 tables; restore drill passed in 8m28s.",
+  "unverified": "Tested new dispensing system for faster patient service. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-006",
+  "base": "Modeled patient flow to reduce wait times by 15%.",
+  "verified": "Modeled patient flow to reduce wait times by 15%. Measured: 38.6s (was 113ms), n=12 runs.",
+  "unverified": "Modeled patient flow to reduce wait times by 15%. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-007",
+  "base": "Released updated software with enhanced prescription processing.",
+  "verified": "Released updated software with enhanced prescription processing. Logs at /var/log/run-546133.log show 0 errors over 24h.",
+  "unverified": "Released updated software with enhanced prescription processing. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-008",
+  "base": "Handled incident response quickly, minimizing patient disruption.",
+  "verified": "Handled incident response quickly, minimizing patient disruption. Receipts: run #9428, 7 checks passed, artifacts in s3://done/dfb5d9e6/.",
+  "unverified": "Handled incident response quickly, minimizing patient disruption. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-009",
+  "base": "Optimized delivery routes for reduced waste and cost.",
+  "verified": "Optimized delivery routes for reduced waste and cost. Commit 1f1e361f is on main; 381/307 tests green.",
+  "unverified": "Optimized delivery routes for reduced waste and cost. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-010",
+  "base": "Trained staff on new automated dispensing machine.",
+  "verified": "Trained staff on new automated dispensing machine. Trace IDs 4f345736\u20268e8805da all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Trained staff on new automated dispensing machine. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-011",
+  "base": "Improved prescription refill processes with self-service kiosks.",
+  "verified": "Improved prescription refill processes with self-service kiosks. Trace IDs 457f118c\u20263f956c99 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Improved prescription refill processes with self-service kiosks. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-012",
+  "base": "Conducted quality assurance checks, ensuring all medications are up to date.",
+  "verified": "Conducted quality assurance checks, ensuring all medications are up to date. Logs at /var/log/run-cdee67.log show 0 errors over 24h.",
+  "unverified": "Conducted quality assurance checks, ensuring all medications are up to date. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-013",
+  "base": "A new game feature was deployed successfully, enhancing player engagement.",
+  "verified": "A new game feature was deployed successfully, enhancing player engagement. Checksums match on all 13 tables; restore drill passed in 10m55s.",
+  "unverified": "A new game feature was deployed successfully, enhancing player engagement. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-014",
+  "base": "Critical bug fixes improved stability in our latest mobile release.",
+  "verified": "Critical bug fixes improved stability in our latest mobile release. Trace IDs 9948d7a0\u2026e589b646 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Critical bug fixes improved stability in our latest mobile release. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-015",
+  "base": "Server migration completed without downtime, ensuring continuous service.",
+  "verified": "Server migration completed without downtime, ensuring continuous service. Receipts: run #9679, 59 checks passed, artifacts in s3://done/816d52a6/.",
+  "unverified": "Server migration completed without downtime, ensuring continuous service. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-016",
+  "base": "Security audit revealed no critical vulnerabilities, upholding our standards.",
+  "verified": "Security audit revealed no critical vulnerabilities, upholding our standards. Measured: 36.1min (was 694s), n=35 runs.",
+  "unverified": "Security audit revealed no critical vulnerabilities, upholding our standards. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-017",
+  "base": "AI model optimizations significantly reduced loading times in our game.",
+  "verified": "AI model optimizations significantly reduced loading times in our game. Checksums match on all 13 tables; restore drill passed in 22m16s.",
+  "unverified": "AI model optimizations significantly reduced loading times in our game. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-018",
+  "base": "Multi-platform compatibility tests passed, expanding our user base.",
+  "verified": "Multi-platform compatibility tests passed, expanding our user base. Receipts: run #3471, 19 checks passed, artifacts in s3://done/20ae2785/.",
+  "unverified": "Multi-platform compatibility tests passed, expanding our user base. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-019",
+  "base": "Level design models integrated smoothly, boosting game flow.",
+  "verified": "Level design models integrated smoothly, boosting game flow. The audit trail (ticket #7657, closed Tue) confirms it end to end.",
+  "unverified": "Level design models integrated smoothly, boosting game flow. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-020",
+  "base": "Incident response team handled a major outage swiftly, restoring services.",
+  "verified": "Incident response team handled a major outage swiftly, restoring services. Checksums match on all 16 tables; restore drill passed in 4m30s.",
+  "unverified": "Incident response team handled a major outage swiftly, restoring services. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-021",
+  "base": "Performance optimizations enhanced frame rates across all devices.",
+  "verified": "Performance optimizations enhanced frame rates across all devices. Checksums match on all 7 tables; restore drill passed in 26m57s.",
+  "unverified": "Performance optimizations enhanced frame rates across all devices. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-022",
+  "base": "Quality assurance tests confirmed all new features function as intended.",
+  "verified": "Quality assurance tests confirmed all new features function as intended. Verified in the dashboard: metric m_01a6 = 49.6, was 165.",
+  "unverified": "Quality assurance tests confirmed all new features function as intended. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-023",
+  "base": "Database migration to cloud storage increased data retrieval speed.",
+  "verified": "Database migration to cloud storage increased data retrieval speed. Logs at /var/log/run-5dd420.log show 0 errors over 24h.",
+  "unverified": "Database migration to cloud storage increased data retrieval speed. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-024",
+  "base": "Deployed the new analytics platform, enhancing data processing by 30%.",
+  "verified": "Deployed the new analytics platform, enhancing data processing by 30%. Checksums match on all 14 tables; restore drill passed in 28m44s.",
+  "unverified": "Deployed the new analytics platform, enhancing data processing by 30%. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-025",
+  "base": "Fixed critical security vulnerabilities, ensuring reader data safety.",
+  "verified": "Fixed critical security vulnerabilities, ensuring reader data safety. Receipts: run #2823, 41 checks passed, artifacts in s3://done/d658677b/.",
+  "unverified": "Fixed critical security vulnerabilities, ensuring reader data safety. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-026",
+  "base": "Migrated the website to a more responsive design, improving user experience.",
+  "verified": "Migrated the website to a more responsive design, improving user experience. Checksums match on all 20 tables; restore drill passed in 21m24s.",
+  "unverified": "Migrated the website to a more responsive design, improving user experience. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-027",
+  "base": "Audited privacy policies, aligning with new GDPR regulations.",
+  "verified": "Audited privacy policies, aligning with new GDPR regulations. Trace IDs c86671fd\u2026ecfe7c43 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Audited privacy policies, aligning with new GDPR regulations. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-028",
+  "base": "Tested the latest version of the newsletter software, finding no major issues.",
+  "verified": "Tested the latest version of the newsletter software, finding no major issues. Receipts: run #7013, 55 checks passed, artifacts in s3://done/05e831f5/.",
+  "unverified": "Tested the latest version of the newsletter software, finding no major issues. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-029",
+  "base": "Modeled predictive algorithms for content trends, boosting engagement.",
+  "verified": "Modeled predictive algorithms for content trends, boosting engagement. Logs at /var/log/run-8168f7.log show 0 errors over 24h.",
+  "unverified": "Modeled predictive algorithms for content trends, boosting engagement. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-030",
+  "base": "Released the updated news app, receiving positive user feedback.",
+  "verified": "Released the updated news app, receiving positive user feedback. Commit 4b1bac42 is on main; 365/351 tests green.",
+  "unverified": "Released the updated news app, receiving positive user feedback. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-031",
+  "base": "Incident response team resolved multiple outages, restoring service.",
+  "verified": "Incident response team resolved multiple outages, restoring service. The audit trail (ticket #2375, closed Mon) confirms it end to end.",
+  "unverified": "Incident response team resolved multiple outages, restoring service. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-032",
+  "base": "Optimized ad targeting, increasing click-through rates significantly.",
+  "verified": "Optimized ad targeting, increasing click-through rates significantly. Measured: 20.7ms (was 829ms), n=11 runs.",
+  "unverified": "Optimized ad targeting, increasing click-through rates significantly. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-033",
+  "base": "Fixed layout bugs on mobile devices, enhancing readability.",
+  "verified": "Fixed layout bugs on mobile devices, enhancing readability. The audit trail (ticket #4146, closed Wed) confirms it end to end.",
+  "unverified": "Fixed layout bugs on mobile devices, enhancing readability. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-034",
+  "base": "Deployed AI chatbots, improving customer support response times.",
+  "verified": "Deployed AI chatbots, improving customer support response times. Checksums match on all 11 tables; restore drill passed in 11m23s.",
+  "unverified": "Deployed AI chatbots, improving customer support response times. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-035",
+  "base": "Deployed new fishing nets with improved durability for all vessels.",
+  "verified": "Deployed new fishing nets with improved durability for all vessels. Logs at /var/log/run-00088c.log show 0 errors over 24h.",
+  "unverified": "Deployed new fishing nets with improved durability for all vessels. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-036",
+  "base": "Fixed navigation system issues, ensuring safer trips for the crew.",
+  "verified": "Fixed navigation system issues, ensuring safer trips for the crew. Receipts: run #4503, 24 checks passed, artifacts in s3://done/fed5e6c8/.",
+  "unverified": "Fixed navigation system issues, ensuring safer trips for the crew. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-037",
+  "base": "Migrated data to a cloud-based system for better accessibility and storage.",
+  "verified": "Migrated data to a cloud-based system for better accessibility and storage. Checksums match on all 18 tables; restore drill passed in 24m18s.",
+  "unverified": "Migrated data to a cloud-based system for better accessibility and storage. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-038",
+  "base": "Audited fishing practices to ensure compliance with new regulations.",
+  "verified": "Audited fishing practices to ensure compliance with new regulations. Verified in the dashboard: metric m_d575 = 67.5, was 351.",
+  "unverified": "Audited fishing practices to ensure compliance with new regulations. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-039",
+  "base": "Conducted safety tests on lifeboats; all passed without issue.",
+  "verified": "Conducted safety tests on lifeboats; all passed without issue. Receipts: run #9664, 23 checks passed, artifacts in s3://done/7467e7ef/.",
+  "unverified": "Conducted safety tests on lifeboats; all passed without issue. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-040",
+  "base": "Modeled sustainable fishing practices to reduce environmental impact.",
+  "verified": "Modeled sustainable fishing practices to reduce environmental impact. Verified in the dashboard: metric m_2d60 = 38.6, was 253.",
+  "unverified": "Modeled sustainable fishing practices to reduce environmental impact. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-041",
+  "base": "Released updated fishing regulations to all staff for better adherence.",
+  "verified": "Released updated fishing regulations to all staff for better adherence. Logs at /var/log/run-70dd8d.log show 0 errors over 24h.",
+  "unverified": "Released updated fishing regulations to all staff for better adherence. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-042",
+  "base": "Incident response team successfully resolved a fuel supply disruption.",
+  "verified": "Incident response team successfully resolved a fuel supply disruption. Checksums match on all 13 tables; restore drill passed in 6m24s.",
+  "unverified": "Incident response team successfully resolved a fuel supply disruption. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-043",
+  "base": "Optimized fishing equipment for increased catch efficiency and reduced costs.",
+  "verified": "Optimized fishing equipment for increased catch efficiency and reduced costs. Verified in the dashboard: metric m_919b = 28.2, was 330.",
+  "unverified": "Optimized fishing equipment for increased catch efficiency and reduced costs. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-044",
+  "base": "Fixed communication systems to enhance coordination between boats.",
+  "verified": "Fixed communication systems to enhance coordination between boats. Checksums match on all 6 tables; restore drill passed in 11m38s.",
+  "unverified": "Fixed communication systems to enhance coordination between boats. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-045",
+  "base": "Deployed new fishing technology to increase overall boat efficiency.",
+  "verified": "Deployed new fishing technology to increase overall boat efficiency. The audit trail (ticket #7941, closed Tue) confirms it end to end.",
+  "unverified": "Deployed new fishing technology to increase overall boat efficiency. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-046",
+  "base": "Deployed the new content management system, enhancing the user interface.",
+  "verified": "Deployed the new content management system, enhancing the user interface. Receipts: run #1635, 37 checks passed, artifacts in s3://done/97448c90/.",
+  "unverified": "Deployed the new content management system, enhancing the user interface. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-047",
+  "base": "Fixed critical bugs in the live news feed, improving user experience.",
+  "verified": "Fixed critical bugs in the live news feed, improving user experience. Verified in the dashboard: metric m_486e = 37.2, was 209.",
+  "unverified": "Fixed critical bugs in the live news feed, improving user experience. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-048",
+  "base": "Migrated the archives to a secure cloud storage solution.",
+  "verified": "Migrated the archives to a secure cloud storage solution. The audit trail (ticket #5745, closed Tue) confirms it end to end.",
+  "unverified": "Migrated the archives to a secure cloud storage solution. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-049",
+  "base": "Audited the database for vulnerabilities, ensuring data safety.",
+  "verified": "Audited the database for vulnerabilities, ensuring data safety. Commit c31c3a9e is on main; 373/295 tests green.",
+  "unverified": "Audited the database for vulnerabilities, ensuring data safety. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-050",
+  "base": "Tested the emergency notification system, guaranteeing reliability.",
+  "verified": "Tested the emergency notification system, guaranteeing reliability. Trace IDs 6b11b16c\u2026ec89ba0d all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Tested the emergency notification system, guaranteeing reliability. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-051",
+  "base": "Modeled predictive analytics for trending stories, boosting engagement.",
+  "verified": "Modeled predictive analytics for trending stories, boosting engagement. Verified in the dashboard: metric m_633f = 24.0, was 162.",
+  "unverified": "Modeled predictive analytics for trending stories, boosting engagement. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-052",
+  "base": "Released the interactive feature map for better geographical stories.",
+  "verified": "Released the interactive feature map for better geographical stories. Checksums match on all 14 tables; restore drill passed in 11m14s.",
+  "unverified": "Released the interactive feature map for better geographical stories. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-053",
+  "base": "Handled a critical incident, maintaining site uptime during a cyber attack.",
+  "verified": "Handled a critical incident, maintaining site uptime during a cyber attack. Logs at /var/log/run-dc61f8.log show 0 errors over 24h.",
+  "unverified": "Handled a critical incident, maintaining site uptime during a cyber attack. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-054",
+  "base": "Optimized the search functionality, reducing load times by 30%.",
+  "verified": "Optimized the search functionality, reducing load times by 30%. Trace IDs 937062cd\u2026a32981c3 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Optimized the search functionality, reducing load times by 30%. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-055",
+  "base": "Fixed a persistent error in the live video stream.",
+  "verified": "Fixed a persistent error in the live video stream. Verified in the dashboard: metric m_dcc2 = 94.7, was 167.",
+  "unverified": "Fixed a persistent error in the live video stream. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-056",
+  "base": "Deployed the redesigned homepage, increasing visitor duration by 25%.",
+  "verified": "Deployed the redesigned homepage, increasing visitor duration by 25%. Checksums match on all 8 tables; restore drill passed in 11m41s.",
+  "unverified": "Deployed the redesigned homepage, increasing visitor duration by 25%. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-057",
+  "base": "Released the AI-generated article summaries, enhancing readability.",
+  "verified": "Released the AI-generated article summaries, enhancing readability. Verified in the dashboard: metric m_890a = 81.9, was 183.",
+  "unverified": "Released the AI-generated article summaries, enhancing readability. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-058",
+  "base": "Deployed the new data pipeline to production without issues.",
+  "verified": "Deployed the new data pipeline to production without issues. Measured: 3.1s (was 633min), n=18 runs.",
+  "unverified": "Deployed the new data pipeline to production without issues. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-059",
+  "base": "Fixed critical bugs in the data processing module.",
+  "verified": "Fixed critical bugs in the data processing module. Commit c717e7bd is on main; 192/235 tests green.",
+  "unverified": "Fixed critical bugs in the data processing module. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-060",
+  "base": "Migrated historical data to the new pipeline seamlessly.",
+  "verified": "Migrated historical data to the new pipeline seamlessly. Verified in the dashboard: metric m_4359 = 98.3, was 329.",
+  "unverified": "Migrated historical data to the new pipeline seamlessly. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-061",
+  "base": "Audited the data flow and found no significant discrepancies.",
+  "verified": "Audited the data flow and found no significant discrepancies. Measured: 27.7s (was 469ms), n=31 runs.",
+  "unverified": "Audited the data flow and found no significant discrepancies. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-062",
+  "base": "Tested the pipeline extensively and all tests passed.",
+  "verified": "Tested the pipeline extensively and all tests passed. Trace IDs 4985a8c4\u20265f7d1871 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Tested the pipeline extensively and all tests passed. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-063",
+  "base": "Built a predictive model that improved accuracy by 15%.",
+  "verified": "Built a predictive model that improved accuracy by 15%. The audit trail (ticket #2115, closed Wed) confirms it end to end.",
+  "unverified": "Built a predictive model that improved accuracy by 15%. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-064",
+  "base": "Released the updated pipeline version to all teams.",
+  "verified": "Released the updated pipeline version to all teams. Measured: 33.1s (was 208s), n=30 runs.",
+  "unverified": "Released the updated pipeline version to all teams. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-065",
+  "base": "Resolved a data consistency issue across multiple systems.",
+  "verified": "Resolved a data consistency issue across multiple systems. Receipts: run #8943, 43 checks passed, artifacts in s3://done/2b5db439/.",
+  "unverified": "Resolved a data consistency issue across multiple systems. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-066",
+  "base": "Optimized data processing time by 30%.",
+  "verified": "Optimized data processing time by 30%. Checksums match on all 6 tables; restore drill passed in 17m35s.",
+  "unverified": "Optimized data processing time by 30%. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-067",
+  "base": "Enhanced the error handling mechanism in the pipeline.",
+  "verified": "Enhanced the error handling mechanism in the pipeline. Checksums match on all 18 tables; restore drill passed in 4m36s.",
+  "unverified": "Enhanced the error handling mechanism in the pipeline. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-068",
+  "base": "Integrated real-time data streams with the existing pipeline.",
+  "verified": "Integrated real-time data streams with the existing pipeline. Commit 8d99e341 is on main; 136/163 tests green.",
+  "unverified": "Integrated real-time data streams with the existing pipeline. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-069",
+  "base": "Ensured all security protocols were compliant in the pipeline.",
+  "verified": "Ensured all security protocols were compliant in the pipeline. Verified in the dashboard: metric m_205f = 29.2, was 341.",
+  "unverified": "Ensured all security protocols were compliant in the pipeline. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-070",
+  "base": "Deployed the new online banking portal successfully, enhancing user experience.",
+  "verified": "Deployed the new online banking portal successfully, enhancing user experience. Checksums match on all 7 tables; restore drill passed in 28m20s.",
+  "unverified": "Deployed the new online banking portal successfully, enhancing user experience. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-071",
+  "base": "Fixed critical transaction processing bugs, ensuring smooth operations.",
+  "verified": "Fixed critical transaction processing bugs, ensuring smooth operations. The audit trail (ticket #8217, closed Tue) confirms it end to end.",
+  "unverified": "Fixed critical transaction processing bugs, ensuring smooth operations. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-072",
+  "base": "Migrated legacy systems to cloud infrastructure, increasing scalability.",
+  "verified": "Migrated legacy systems to cloud infrastructure, increasing scalability. Verified in the dashboard: metric m_97df = 95.4, was 142.",
+  "unverified": "Migrated legacy systems to cloud infrastructure, increasing scalability. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-073",
+  "base": "Conducted a thorough financial audit, confirming accuracy and compliance.",
+  "verified": "Conducted a thorough financial audit, confirming accuracy and compliance. Commit 0e40a846 is on main; 155/244 tests green.",
+  "unverified": "Conducted a thorough financial audit, confirming accuracy and compliance. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-074",
+  "base": "Tested security protocols rigorously, improving data protection measures.",
+  "verified": "Tested security protocols rigorously, improving data protection measures. Receipts: run #7046, 58 checks passed, artifacts in s3://done/d17aa6a8/.",
+  "unverified": "Tested security protocols rigorously, improving data protection measures. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-075",
+  "base": "Developed predictive models for risk assessment, boosting financial health.",
+  "verified": "Developed predictive models for risk assessment, boosting financial health. The audit trail (ticket #7051, closed Mon) confirms it end to end.",
+  "unverified": "Developed predictive models for risk assessment, boosting financial health. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-076",
+  "base": "Released a major update for mobile banking apps, increasing user engagement.",
+  "verified": "Released a major update for mobile banking apps, increasing user engagement. Verified in the dashboard: metric m_3f49 = 79.4, was 208.",
+  "unverified": "Released a major update for mobile banking apps, increasing user engagement. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-077",
+  "base": "Resolved high-profile incident swiftly, minimizing customer impact.",
+  "verified": "Resolved high-profile incident swiftly, minimizing customer impact. The audit trail (ticket #8002, closed Wed) confirms it end to end.",
+  "unverified": "Resolved high-profile incident swiftly, minimizing customer impact. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-078",
+  "base": "Optimized loan processing workflows, reducing wait times significantly.",
+  "verified": "Optimized loan processing workflows, reducing wait times significantly. Verified in the dashboard: metric m_80d0 = 54.4, was 174.",
+  "unverified": "Optimized loan processing workflows, reducing wait times significantly. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-079",
+  "base": "Implemented new compliance standards, ensuring regulatory adherence.",
+  "verified": "Implemented new compliance standards, ensuring regulatory adherence. Measured: 5.4min (was 179ms), n=15 runs.",
+  "unverified": "Implemented new compliance standards, ensuring regulatory adherence. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-080",
+  "base": "Enhanced fraud detection algorithms, reducing false positives effectively.",
+  "verified": "Enhanced fraud detection algorithms, reducing false positives effectively. Verified in the dashboard: metric m_2f98 = 49.2, was 222.",
+  "unverified": "Enhanced fraud detection algorithms, reducing false positives effectively. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-081",
+  "base": "Streamlined customer support processes, improving response times.",
+  "verified": "Streamlined customer support processes, improving response times. The audit trail (ticket #9348, closed Tue) confirms it end to end.",
+  "unverified": "Streamlined customer support processes, improving response times. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-082",
+  "base": "Deployed new firewall rules to enhance network security.",
+  "verified": "Deployed new firewall rules to enhance network security. Checksums match on all 5 tables; restore drill passed in 19m50s.",
+  "unverified": "Deployed new firewall rules to enhance network security. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-083",
+  "base": "Fixed a critical vulnerability in our encryption protocol.",
+  "verified": "Fixed a critical vulnerability in our encryption protocol. Trace IDs 72f1933d\u2026488e338c all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Fixed a critical vulnerability in our encryption protocol. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-084",
+  "base": "Migrated legacy systems to a more secure cloud environment.",
+  "verified": "Migrated legacy systems to a more secure cloud environment. Measured: 9.9s (was 409min), n=8 runs.",
+  "unverified": "Migrated legacy systems to a more secure cloud environment. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-085",
+  "base": "Conducted a thorough security audit with no critical findings.",
+  "verified": "Conducted a thorough security audit with no critical findings. Commit 6f02172e is on main; 183/302 tests green.",
+  "unverified": "Conducted a thorough security audit with no critical findings. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-086",
+  "base": "Released a new security plugin to protect against ransomware.",
+  "verified": "Released a new security plugin to protect against ransomware. Trace IDs cb1f56f5\u20267e8652b6 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Released a new security plugin to protect against ransomware. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-087",
+  "base": "Incidents responded to and contained within 30 minutes.",
+  "verified": "Incidents responded to and contained within 30 minutes. Logs at /var/log/run-496234.log show 0 errors over 24h.",
+  "unverified": "Incidents responded to and contained within 30 minutes. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-088",
+  "base": "Optimized security logs for faster analysis and reporting.",
+  "verified": "Optimized security logs for faster analysis and reporting. The audit trail (ticket #1302, closed Wed) confirms it end to end.",
+  "unverified": "Optimized security logs for faster analysis and reporting. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-089",
+  "base": "Test results show 99.9% accuracy in threat detection.",
+  "verified": "Test results show 99.9% accuracy in threat detection. Commit 70e2d941 is on main; 128/288 tests green.",
+  "unverified": "Test results show 99.9% accuracy in threat detection. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-090",
+  "base": "Trained team on the latest phishing attack vectors.",
+  "verified": "Trained team on the latest phishing attack vectors. Trace IDs 9a89ac7a\u202635c8e57b all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Trained team on the latest phishing attack vectors. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-091",
+  "base": "Developed a robust incident response model.",
+  "verified": "Developed a robust incident response model. Verified in the dashboard: metric m_65d1 = 72.0, was 257.",
+  "unverified": "Developed a robust incident response model. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-092",
+  "base": "Updated security policies to comply with new regulations.",
+  "verified": "Updated security policies to comply with new regulations. Checksums match on all 10 tables; restore drill passed in 3m21s.",
+  "unverified": "Updated security policies to comply with new regulations. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-093",
+  "base": "Implemented multi-factor authentication across all services.",
+  "verified": "Implemented multi-factor authentication across all services. Trace IDs 278541d0\u20264741edb6 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Implemented multi-factor authentication across all services. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-094",
+  "base": "Deployed the new content management system successfully, enhancing editorial workflow.",
+  "verified": "Deployed the new content management system successfully, enhancing editorial workflow. Receipts: run #8653, 15 checks passed, artifacts in s3://done/36226e8d/.",
+  "unverified": "Deployed the new content management system successfully, enhancing editorial workflow. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-095",
+  "base": "Fixed critical bugs in the website's payment gateway, ensuring secure transactions.",
+  "verified": "Fixed critical bugs in the website's payment gateway, ensuring secure transactions. Checksums match on all 4 tables; restore drill passed in 19m34s.",
+  "unverified": "Fixed critical bugs in the website's payment gateway, ensuring secure transactions. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-096",
+  "base": "Migrated the archive database to the cloud, improving access speed significantly.",
+  "verified": "Migrated the archive database to the cloud, improving access speed significantly. Receipts: run #8285, 55 checks passed, artifacts in s3://done/d0f3dcc7/.",
+  "unverified": "Migrated the archive database to the cloud, improving access speed significantly. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-097",
+  "base": "Audited the entire site for security vulnerabilities, all addressed.",
+  "verified": "Audited the entire site for security vulnerabilities, all addressed. Checksums match on all 16 tables; restore drill passed in 25m18s.",
+  "unverified": "Audited the entire site for security vulnerabilities, all addressed. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-098",
+  "base": "Tested the new mobile app thoroughly, no critical issues found.",
+  "verified": "Tested the new mobile app thoroughly, no critical issues found. Trace IDs e8e51cd3\u2026b72d5183 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Tested the new mobile app thoroughly, no critical issues found. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-099",
+  "base": "Built a predictive model for audience engagement, improving personalization.",
+  "verified": "Built a predictive model for audience engagement, improving personalization. Verified in the dashboard: metric m_b990 = 16.3, was 395.",
+  "unverified": "Built a predictive model for audience engagement, improving personalization. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-100",
+  "base": "Released the updated version of our daily newsletter to subscribers.",
+  "verified": "Released the updated version of our daily newsletter to subscribers. Trace IDs 1b2206ed\u2026aad1810c all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Released the updated version of our daily newsletter to subscribers. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-101",
+  "base": "Incident response team handled a DDoS attack, no data loss.",
+  "verified": "Incident response team handled a DDoS attack, no data loss. Verified in the dashboard: metric m_062b = 85.2, was 166.",
+  "unverified": "Incident response team handled a DDoS attack, no data loss. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-102",
+  "base": "Optimized ad placements, increasing revenue by 15%.",
+  "verified": "Optimized ad placements, increasing revenue by 15%. Logs at /var/log/run-fb2da6.log show 0 errors over 24h.",
+  "unverified": "Optimized ad placements, increasing revenue by 15%. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-103",
+  "base": "Launched the interactive feature, increasing user interaction by 20%.",
+  "verified": "Launched the interactive feature, increasing user interaction by 20%. Receipts: run #1404, 30 checks passed, artifacts in s3://done/42fe54bd/.",
+  "unverified": "Launched the interactive feature, increasing user interaction by 20%. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-104",
+  "base": "Conducted a comprehensive review of ad content policies, updated them.",
+  "verified": "Conducted a comprehensive review of ad content policies, updated them. Measured: 4.4ms (was 220s), n=18 runs.",
+  "unverified": "Conducted a comprehensive review of ad content policies, updated them. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-105",
+  "base": "Enhanced the SEO strategy, boosting traffic to key articles by 25%.",
+  "verified": "Enhanced the SEO strategy, boosting traffic to key articles by 25%. Commit 2f740c7f is on main; 379/225 tests green.",
+  "unverified": "Enhanced the SEO strategy, boosting traffic to key articles by 25%. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-106",
+  "base": "Deployed the new student information system successfully without any downtime.",
+  "verified": "Deployed the new student information system successfully without any downtime. Logs at /var/log/run-b7db5d.log show 0 errors over 24h.",
+  "unverified": "Deployed the new student information system successfully without any downtime. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-107",
+  "base": "Fixed the login issue for over 90% of the affected students yesterday.",
+  "verified": "Fixed the login issue for over 90% of the affected students yesterday. Measured: 5.1min (was 721ms), n=10 runs.",
+  "unverified": "Fixed the login issue for over 90% of the affected students yesterday. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-108",
+  "base": "Migrated the library database to a cloud platform seamlessly.",
+  "verified": "Migrated the library database to a cloud platform seamlessly. Measured: 12.4ms (was 631s), n=8 runs.",
+  "unverified": "Migrated the library database to a cloud platform seamlessly. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-109",
+  "base": "Completed the annual audit of all school IT systems on time.",
+  "verified": "Completed the annual audit of all school IT systems on time. Logs at /var/log/run-3fe7c1.log show 0 errors over 24h.",
+  "unverified": "Completed the annual audit of all school IT systems on time. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-110",
+  "base": "Tested the fire safety drills and reported zero issues found.",
+  "verified": "Tested the fire safety drills and reported zero issues found. Checksums match on all 3 tables; restore drill passed in 26m52s.",
+  "unverified": "Tested the fire safety drills and reported zero issues found. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-111",
+  "base": "Modeled the new curriculum for the upcoming semester.",
+  "verified": "Modeled the new curriculum for the upcoming semester. Receipts: run #5973, 11 checks passed, artifacts in s3://done/5e8117f2/.",
+  "unverified": "Modeled the new curriculum for the upcoming semester. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-112",
+  "base": "Released the updated school calendar with no reported errors.",
+  "verified": "Released the updated school calendar with no reported errors. Measured: 35.1s (was 294ms), n=14 runs.",
+  "unverified": "Released the updated school calendar with no reported errors. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-113",
+  "base": "Handled the technical incident during the live school assembly promptly.",
+  "verified": "Handled the technical incident during the live school assembly promptly. Measured: 6.1ms (was 772s), n=39 runs.",
+  "unverified": "Handled the technical incident during the live school assembly promptly. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-114",
+  "base": "Optimized the network speed, enhancing online learning experiences.",
+  "verified": "Optimized the network speed, enhancing online learning experiences. Verified in the dashboard: metric m_0f12 = 97.3, was 367.",
+  "unverified": "Optimized the network speed, enhancing online learning experiences. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-115",
+  "base": "Fixed the broken sports scoreboard, ready for the next event.",
+  "verified": "Fixed the broken sports scoreboard, ready for the next event. Checksums match on all 13 tables; restore drill passed in 24m28s.",
+  "unverified": "Fixed the broken sports scoreboard, ready for the next event. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-116",
+  "base": "Deployed the new virtual reality lab with all required features.",
+  "verified": "Deployed the new virtual reality lab with all required features. Verified in the dashboard: metric m_1cbf = 80.3, was 124.",
+  "unverified": "Deployed the new virtual reality lab with all required features. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-117",
+  "base": "Conducted a successful IT security training session for teachers.",
+  "verified": "Conducted a successful IT security training session for teachers. Commit 9fac04f8 is on main; 162/332 tests green.",
+  "unverified": "Conducted a successful IT security training session for teachers. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-118",
+  "base": "Deployed new tracking system to enhance real-time shipment visibility.",
+  "verified": "Deployed new tracking system to enhance real-time shipment visibility. The audit trail (ticket #8141, closed Wed) confirms it end to end.",
+  "unverified": "Deployed new tracking system to enhance real-time shipment visibility. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-119",
+  "base": "Fixed critical bug in the warehouse management software, ensuring smoother operations.",
+  "verified": "Fixed critical bug in the warehouse management software, ensuring smoother operations. Measured: 7.6s (was 704s), n=8 runs.",
+  "unverified": "Fixed critical bug in the warehouse management software, ensuring smoother operations. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-120",
+  "base": "Migrated data to the cloud, improving storage and accessibility.",
+  "verified": "Migrated data to the cloud, improving storage and accessibility. Measured: 37.8min (was 868ms), n=13 runs.",
+  "unverified": "Migrated data to the cloud, improving storage and accessibility. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-121",
+  "base": "Audited security protocols and found multiple areas for improvement.",
+  "verified": "Audited security protocols and found multiple areas for improvement. The audit trail (ticket #6733, closed Mon) confirms it end to end.",
+  "unverified": "Audited security protocols and found multiple areas for improvement. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-122",
+  "base": "Conducted performance tests on the logistics software, confirming reliability.",
+  "verified": "Conducted performance tests on the logistics software, confirming reliability. Trace IDs 0c8bfd72\u2026599ee1a2 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Conducted performance tests on the logistics software, confirming reliability. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-123",
+  "base": "Created predictive models for demand forecasting, optimizing inventory levels.",
+  "verified": "Created predictive models for demand forecasting, optimizing inventory levels. Trace IDs 6e8ec5a6\u2026da002218 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Created predictive models for demand forecasting, optimizing inventory levels. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-124",
+  "base": "Released upgraded delivery vehicles with enhanced fuel efficiency.",
+  "verified": "Released upgraded delivery vehicles with enhanced fuel efficiency. Trace IDs d12ba7be\u202625b7a9d5 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Released upgraded delivery vehicles with enhanced fuel efficiency. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-125",
+  "base": "Handled a major incident, rerouting shipments to avoid delays.",
+  "verified": "Handled a major incident, rerouting shipments to avoid delays. Logs at /var/log/run-81cd7a.log show 0 errors over 24h.",
+  "unverified": "Handled a major incident, rerouting shipments to avoid delays. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-126",
+  "base": "Optimized warehouse layout, reducing handling time by 20%.",
+  "verified": "Optimized warehouse layout, reducing handling time by 20%. The audit trail (ticket #5750, closed Wed) confirms it end to end.",
+  "unverified": "Optimized warehouse layout, reducing handling time by 20%. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-127",
+  "base": "Implemented AI-driven route optimization, decreasing travel time.",
+  "verified": "Implemented AI-driven route optimization, decreasing travel time. Measured: 16.1s (was 719min), n=25 runs.",
+  "unverified": "Implemented AI-driven route optimization, decreasing travel time. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-128",
+  "base": "Streamlined customs clearance processes, speeding up international shipments.",
+  "verified": "Streamlined customs clearance processes, speeding up international shipments. Measured: 11.4ms (was 551ms), n=4 runs.",
+  "unverified": "Streamlined customs clearance processes, speeding up international shipments. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-129",
+  "base": "Deployed the new feature branch successfully, enhancing user interface responsiveness.",
+  "verified": "Deployed the new feature branch successfully, enhancing user interface responsiveness. Logs at /var/log/run-1b39c0.log show 0 errors over 24h.",
+  "unverified": "Deployed the new feature branch successfully, enhancing user interface responsiveness. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-130",
+  "base": "Fixed a critical bug in the database connector, preventing data loss.",
+  "verified": "Fixed a critical bug in the database connector, preventing data loss. Trace IDs c77319c3\u202661582903 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Fixed a critical bug in the database connector, preventing data loss. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-131",
+  "base": "Migrated the project to a new version control system for better collaboration.",
+  "verified": "Migrated the project to a new version control system for better collaboration. The audit trail (ticket #5355, closed Wed) confirms it end to end.",
+  "unverified": "Migrated the project to a new version control system for better collaboration. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-132",
+  "base": "Audited security vulnerabilities and updated the library to meet the latest standards.",
+  "verified": "Audited security vulnerabilities and updated the library to meet the latest standards. Verified in the dashboard: metric m_3bc5 = 97.9, was 232.",
+  "unverified": "Audited security vulnerabilities and updated the library to meet the latest standards. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-133",
+  "base": "Conducted extensive tests and verified the stability of the API endpoints.",
+  "verified": "Conducted extensive tests and verified the stability of the API endpoints. Measured: 8.0ms (was 319ms), n=7 runs.",
+  "unverified": "Conducted extensive tests and verified the stability of the API endpoints. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-134",
+  "base": "Created a complex model for prediction, improving accuracy by 15%.",
+  "verified": "Created a complex model for prediction, improving accuracy by 15%. Commit 552fa6ef is on main; 92/110 tests green.",
+  "unverified": "Created a complex model for prediction, improving accuracy by 15%. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-135",
+  "base": "Released a major update with performance optimizations and bug fixes.",
+  "verified": "Released a major update with performance optimizations and bug fixes. Receipts: run #6593, 52 checks passed, artifacts in s3://done/2ada34f5/.",
+  "unverified": "Released a major update with performance optimizations and bug fixes. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-136",
+  "base": "Resolved an incident quickly, restoring full service within 2 hours.",
+  "verified": "Resolved an incident quickly, restoring full service within 2 hours. Logs at /var/log/run-fa6ec1.log show 0 errors over 24h.",
+  "unverified": "Resolved an incident quickly, restoring full service within 2 hours. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-137",
+  "base": "Optimized code for faster execution without compromising on functionality.",
+  "verified": "Optimized code for faster execution without compromising on functionality. Verified in the dashboard: metric m_c17b = 35.8, was 157.",
+  "unverified": "Optimized code for faster execution without compromising on functionality. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-138",
+  "base": "Improved documentation to include step-by-step setup guides for beginners.",
+  "verified": "Improved documentation to include step-by-step setup guides for beginners. Receipts: run #3022, 45 checks passed, artifacts in s3://done/0a53a696/.",
+  "unverified": "Improved documentation to include step-by-step setup guides for beginners. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-139",
+  "base": "Enhanced logging system for easier debugging and maintenance.",
+  "verified": "Enhanced logging system for easier debugging and maintenance. Measured: 40.3s (was 79s), n=23 runs.",
+  "unverified": "Enhanced logging system for easier debugging and maintenance. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-140",
+  "base": "Integrated external services seamlessly, expanding library functionality.",
+  "verified": "Integrated external services seamlessly, expanding library functionality. Measured: 37.0s (was 418min), n=27 runs.",
+  "unverified": "Integrated external services seamlessly, expanding library functionality. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-141",
+  "base": "Deployed the new login feature, enhancing user access.",
+  "verified": "Deployed the new login feature, enhancing user access. Measured: 24.4ms (was 840min), n=28 runs.",
+  "unverified": "Deployed the new login feature, enhancing user access. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-142",
+  "base": "Fixed critical bugs in the payment module, ensuring transactions are secure.",
+  "verified": "Fixed critical bugs in the payment module, ensuring transactions are secure. Checksums match on all 16 tables; restore drill passed in 10m44s.",
+  "unverified": "Fixed critical bugs in the payment module, ensuring transactions are secure. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-143",
+  "base": "Migrated data to the new backend, improving app performance.",
+  "verified": "Migrated data to the new backend, improving app performance. Measured: 4.9s (was 145min), n=10 runs.",
+  "unverified": "Migrated data to the new backend, improving app performance. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-144",
+  "base": "Audited user feedback, addressing key concerns for better UX.",
+  "verified": "Audited user feedback, addressing key concerns for better UX. Verified in the dashboard: metric m_30a6 = 95.2, was 313.",
+  "unverified": "Audited user feedback, addressing key concerns for better UX. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-145",
+  "base": "Released the weather update feature, offering real-time weather updates.",
+  "verified": "Released the weather update feature, offering real-time weather updates. The audit trail (ticket #5716, closed Wed) confirms it end to end.",
+  "unverified": "Released the weather update feature, offering real-time weather updates. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-146",
+  "base": "Optimized app load times, reducing user wait periods.",
+  "verified": "Optimized app load times, reducing user wait periods. The audit trail (ticket #1936, closed Wed) confirms it end to end.",
+  "unverified": "Optimized app load times, reducing user wait periods. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-147",
+  "base": "Fixed the crash issue on older devices, maintaining compatibility.",
+  "verified": "Fixed the crash issue on older devices, maintaining compatibility. Receipts: run #6243, 35 checks passed, artifacts in s3://done/be150ba8/.",
+  "unverified": "Fixed the crash issue on older devices, maintaining compatibility. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-148",
+  "base": "Tested the social sharing function, expanding user engagement.",
+  "verified": "Tested the social sharing function, expanding user engagement. Logs at /var/log/run-170d57.log show 0 errors over 24h.",
+  "unverified": "Tested the social sharing function, expanding user engagement. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-149",
+  "base": "Modeled user behavior patterns, personalizing app content.",
+  "verified": "Modeled user behavior patterns, personalizing app content. Trace IDs 028d278b\u202631c9a5cb all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Modeled user behavior patterns, personalizing app content. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-150",
+  "base": "Released the dark mode feature, enhancing night-time use.",
+  "verified": "Released the dark mode feature, enhancing night-time use. Logs at /var/log/run-cfd437.log show 0 errors over 24h.",
+  "unverified": "Released the dark mode feature, enhancing night-time use. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-151",
+  "base": "Optimized push notifications, increasing user interaction.",
+  "verified": "Optimized push notifications, increasing user interaction. Commit 32abf446 is on main; 302/246 tests green.",
+  "unverified": "Optimized push notifications, increasing user interaction. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-152",
+  "base": "Deployed the new server infrastructure to support 50% growth in user base.",
+  "verified": "Deployed the new server infrastructure to support 50% growth in user base. Commit eb267443 is on main; 333/97 tests green.",
+  "unverified": "Deployed the new server infrastructure to support 50% growth in user base. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-153",
+  "base": "Fixed the battery life issue in the device, now surpassing competitors.",
+  "verified": "Fixed the battery life issue in the device, now surpassing competitors. Logs at /var/log/run-f9ae4d.log show 0 errors over 24h.",
+  "unverified": "Fixed the battery life issue in the device, now surpassing competitors. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-154",
+  "base": "Migrated data to the cloud, achieving seamless integration and improved scalability.",
+  "verified": "Migrated data to the cloud, achieving seamless integration and improved scalability. The audit trail (ticket #2171, closed Tue) confirms it end to end.",
+  "unverified": "Migrated data to the cloud, achieving seamless integration and improved scalability. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-155",
+  "base": "Audited the security protocols, ensuring compliance with new regulations.",
+  "verified": "Audited the security protocols, ensuring compliance with new regulations. Checksums match on all 13 tables; restore drill passed in 7m42s.",
+  "unverified": "Audited the security protocols, ensuring compliance with new regulations. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-156",
+  "base": "Tested the product for durability, achieving a 98% pass rate.",
+  "verified": "Tested the product for durability, achieving a 98% pass rate. Commit 63e9d804 is on main; 292/116 tests green.",
+  "unverified": "Tested the product for durability, achieving a 98% pass rate. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-157",
+  "base": "Created a predictive model for demand forecasting, enhancing inventory management.",
+  "verified": "Created a predictive model for demand forecasting, enhancing inventory management. Receipts: run #8954, 10 checks passed, artifacts in s3://done/9478ad75/.",
+  "unverified": "Created a predictive model for demand forecasting, enhancing inventory management. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-158",
+  "base": "Released the updated firmware, significantly improving device performance.",
+  "verified": "Released the updated firmware, significantly improving device performance. Trace IDs bc339bbf\u2026aeb40f1b all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Released the updated firmware, significantly improving device performance. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-159",
+  "base": "Handled a critical incident, restoring service within 2 hours without downtime.",
+  "verified": "Handled a critical incident, restoring service within 2 hours without downtime. Logs at /var/log/run-44d17f.log show 0 errors over 24h.",
+  "unverified": "Handled a critical incident, restoring service within 2 hours without downtime. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-160",
+  "base": "Optimized the production process, reducing costs by 15%.",
+  "verified": "Optimized the production process, reducing costs by 15%. Receipts: run #7152, 48 checks passed, artifacts in s3://done/4b88bfa3/.",
+  "unverified": "Optimized the production process, reducing costs by 15%. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-161",
+  "base": "Integrated the payment gateway, enabling secure transactions.",
+  "verified": "Integrated the payment gateway, enabling secure transactions. Measured: 7.1s (was 233s), n=14 runs.",
+  "unverified": "Integrated the payment gateway, enabling secure transactions. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-162",
+  "base": "Enhanced the user interface, boosting customer satisfaction ratings.",
+  "verified": "Enhanced the user interface, boosting customer satisfaction ratings. Checksums match on all 12 tables; restore drill passed in 3m15s.",
+  "unverified": "Enhanced the user interface, boosting customer satisfaction ratings. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-163",
+  "base": "Deployed new navigation software to improve route efficiency.",
+  "verified": "Deployed new navigation software to improve route efficiency. Logs at /var/log/run-3d5e4b.log show 0 errors over 24h.",
+  "unverified": "Deployed new navigation software to improve route efficiency. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-164",
+  "base": "Fixed engine issues ensuring smoother fishing operations.",
+  "verified": "Fixed engine issues ensuring smoother fishing operations. Receipts: run #8465, 17 checks passed, artifacts in s3://done/ca9d9a2d/.",
+  "unverified": "Fixed engine issues ensuring smoother fishing operations. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-165",
+  "base": "Migrated data to cloud storage for better accessibility.",
+  "verified": "Migrated data to cloud storage for better accessibility. Verified in the dashboard: metric m_d174 = 38.2, was 330.",
+  "unverified": "Migrated data to cloud storage for better accessibility. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-166",
+  "base": "Audited safety protocols and found areas for improvement.",
+  "verified": "Audited safety protocols and found areas for improvement. Logs at /var/log/run-1017f4.log show 0 errors over 24h.",
+  "unverified": "Audited safety protocols and found areas for improvement. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-167",
+  "base": "Tested fishing nets for durability and efficiency enhancements.",
+  "verified": "Tested fishing nets for durability and efficiency enhancements. Logs at /var/log/run-5654cc.log show 0 errors over 24h.",
+  "unverified": "Tested fishing nets for durability and efficiency enhancements. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-168",
+  "base": "Modeled sustainable fishing practices for long-term benefits.",
+  "verified": "Modeled sustainable fishing practices for long-term benefits. Trace IDs 8ab304bb\u20262769b4f5 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Modeled sustainable fishing practices for long-term benefits. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-169",
+  "base": "Released updated boat maintenance schedule to crew.",
+  "verified": "Released updated boat maintenance schedule to crew. Commit 7a57ad1b is on main; 391/83 tests green.",
+  "unverified": "Released updated boat maintenance schedule to crew. I'm sure the numbers back this up, roughly."
+ },
+ {
+  "id": "pair-170",
+  "base": "Handled an incident quickly, ensuring minimal downtime.",
+  "verified": "Handled an incident quickly, ensuring minimal downtime. Verified in the dashboard: metric m_b032 = 39.5, was 351.",
+  "unverified": "Handled an incident quickly, ensuring minimal downtime. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-171",
+  "base": "Optimized fishing gear for higher catch rates.",
+  "verified": "Optimized fishing gear for higher catch rates. Checksums match on all 12 tables; restore drill passed in 7m12s.",
+  "unverified": "Optimized fishing gear for higher catch rates. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-172",
+  "base": "Fixed communication systems for better coordination.",
+  "verified": "Fixed communication systems for better coordination. Receipts: run #4075, 17 checks passed, artifacts in s3://done/16cb4621/.",
+  "unverified": "Fixed communication systems for better coordination. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-173",
+  "base": "Deployed solar panels for reduced fuel consumption.",
+  "verified": "Deployed solar panels for reduced fuel consumption. Commit be1f7c0d is on main; 260/123 tests green.",
+  "unverified": "Deployed solar panels for reduced fuel consumption. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-174",
+  "base": "Improved fishing methods through community best practices.",
+  "verified": "Improved fishing methods through community best practices. Receipts: run #9711, 21 checks passed, artifacts in s3://done/961b16d5/.",
+  "unverified": "Improved fishing methods through community best practices. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-175",
+  "base": "Deployed the new firmware to all devices, ensuring smoother user experience.",
+  "verified": "Deployed the new firmware to all devices, ensuring smoother user experience. Checksums match on all 10 tables; restore drill passed in 2m36s.",
+  "unverified": "Deployed the new firmware to all devices, ensuring smoother user experience. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-176",
+  "base": "Fixed the battery drainage issue, significantly improving device longevity.",
+  "verified": "Fixed the battery drainage issue, significantly improving device longevity. Receipts: run #1513, 26 checks passed, artifacts in s3://done/99d04006/.",
+  "unverified": "Fixed the battery drainage issue, significantly improving device longevity. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-177",
+  "base": "Migrated the database to the cloud, enhancing data security and accessibility.",
+  "verified": "Migrated the database to the cloud, enhancing data security and accessibility. Receipts: run #7033, 44 checks passed, artifacts in s3://done/416f3fe0/.",
+  "unverified": "Migrated the database to the cloud, enhancing data security and accessibility. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-178",
+  "base": "Audited the codebase, identifying and addressing multiple bugs.",
+  "verified": "Audited the codebase, identifying and addressing multiple bugs. Measured: 39.8ms (was 354s), n=36 runs.",
+  "unverified": "Audited the codebase, identifying and addressing multiple bugs. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-179",
+  "base": "Released the updated app version with new features and performance improvements.",
+  "verified": "Released the updated app version with new features and performance improvements. The audit trail (ticket #3352, closed Mon) confirms it end to end.",
+  "unverified": "Released the updated app version with new features and performance improvements. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-180",
+  "base": "Tested the prototype under extreme conditions, confirming its reliability.",
+  "verified": "Tested the prototype under extreme conditions, confirming its reliability. Logs at /var/log/run-3b53d4.log show 0 errors over 24h.",
+  "unverified": "Tested the prototype under extreme conditions, confirming its reliability. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-181",
+  "base": "Optimized the power consumption, reducing device drain during intensive use.",
+  "verified": "Optimized the power consumption, reducing device drain during intensive use. Verified in the dashboard: metric m_006f = 91.1, was 215.",
+  "unverified": "Optimized the power consumption, reducing device drain during intensive use. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-182",
+  "base": "Deployed the AI model, achieving higher accuracy in user predictions.",
+  "verified": "Deployed the AI model, achieving higher accuracy in user predictions. Logs at /var/log/run-b1b959.log show 0 errors over 24h.",
+  "unverified": "Deployed the AI model, achieving higher accuracy in user predictions. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-183",
+  "base": "Fixed the login system flaw, preventing unauthorized access.",
+  "verified": "Fixed the login system flaw, preventing unauthorized access. Trace IDs 197f382a\u2026b9cd475c all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Fixed the login system flaw, preventing unauthorized access. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-184",
+  "base": "Migrated the website to a more responsive design, boosting user engagement.",
+  "verified": "Migrated the website to a more responsive design, boosting user engagement. Verified in the dashboard: metric m_f709 = 43.9, was 150.",
+  "unverified": "Migrated the website to a more responsive design, boosting user engagement. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-185",
+  "base": "Released the beta version, gathering valuable user feedback for further development.",
+  "verified": "Released the beta version, gathering valuable user feedback for further development. The audit trail (ticket #2706, closed Wed) confirms it end to end.",
+  "unverified": "Released the beta version, gathering valuable user feedback for further development. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-186",
+  "base": "Optimized the supply chain, reducing costs without compromising quality.",
+  "verified": "Optimized the supply chain, reducing costs without compromising quality. Logs at /var/log/run-71f4d4.log show 0 errors over 24h.",
+  "unverified": "Optimized the supply chain, reducing costs without compromising quality. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-187",
+  "base": "Deployed new inventory tracking software with no downtime.",
+  "verified": "Deployed new inventory tracking software with no downtime. Logs at /var/log/run-bdfca4.log show 0 errors over 24h.",
+  "unverified": "Deployed new inventory tracking software with no downtime. We can consider this done and verified, informally."
+ },
+ {
+  "id": "pair-188",
+  "base": "Fixed multiple barcode scanning errors, improving accuracy.",
+  "verified": "Fixed multiple barcode scanning errors, improving accuracy. The audit trail (ticket #1982, closed Wed) confirms it end to end.",
+  "unverified": "Fixed multiple barcode scanning errors, improving accuracy. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-189",
+  "base": "Migrated warehouse data to cloud, enhancing accessibility.",
+  "verified": "Migrated warehouse data to cloud, enhancing accessibility. The audit trail (ticket #6517, closed Mon) confirms it end to end.",
+  "unverified": "Migrated warehouse data to cloud, enhancing accessibility. I didn't keep the logs, but it definitely worked."
+ },
+ {
+  "id": "pair-190",
+  "base": "Audited storage facilities, ensuring compliance with regulations.",
+  "verified": "Audited storage facilities, ensuring compliance with regulations. Commit 291a3808 is on main; 356/282 tests green.",
+  "unverified": "Audited storage facilities, ensuring compliance with regulations. No receipts for this one, but I'm confident."
+ },
+ {
+  "id": "pair-191",
+  "base": "Tested temperature controls, maintaining optimal conditions.",
+  "verified": "Tested temperature controls, maintaining optimal conditions. Measured: 29.5ms (was 465min), n=32 runs.",
+  "unverified": "Tested temperature controls, maintaining optimal conditions. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-192",
+  "base": "Modeled demand forecasts, optimizing inventory levels.",
+  "verified": "Modeled demand forecasts, optimizing inventory levels. Trace IDs cc747b2c\u20260ed5144a all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Modeled demand forecasts, optimizing inventory levels. Trust me, it all went fine."
+ },
+ {
+  "id": "pair-193",
+  "base": "Released updated pick and pack procedures, boosting efficiency.",
+  "verified": "Released updated pick and pack procedures, boosting efficiency. Measured: 22.7min (was 726s), n=8 runs.",
+  "unverified": "Released updated pick and pack procedures, boosting efficiency. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-194",
+  "base": "Handled emergency incident, restoring order swiftly.",
+  "verified": "Handled emergency incident, restoring order swiftly. Receipts: run #3970, 4 checks passed, artifacts in s3://done/62f0daf9/.",
+  "unverified": "Handled emergency incident, restoring order swiftly. It should be solid; nothing looked off."
+ },
+ {
+  "id": "pair-195",
+  "base": "Optimized lighting system, reducing energy consumption.",
+  "verified": "Optimized lighting system, reducing energy consumption. Trace IDs eb899778\u2026bf4d2a72 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Optimized lighting system, reducing energy consumption. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-196",
+  "base": "Fixed electrical issues, ensuring safe operation.",
+  "verified": "Fixed electrical issues, ensuring safe operation. Trace IDs f676ae9c\u2026e0b644a5 all return 200s; alert error_high stayed silent for 72h.",
+  "unverified": "Fixed electrical issues, ensuring safe operation. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-197",
+  "base": "Migrated old storage systems to automated solutions.",
+  "verified": "Migrated old storage systems to automated solutions. Trace IDs 3fb7a2d9\u2026f872bad8 all return 200s; alert latency_high stayed silent for 72h.",
+  "unverified": "Migrated old storage systems to automated solutions. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-198",
+  "base": "Deployed real-time tracking devices, improving visibility.",
+  "verified": "Deployed real-time tracking devices, improving visibility. Verified in the dashboard: metric m_9c71 = 85.6, was 162.",
+  "unverified": "Deployed real-time tracking devices, improving visibility. Take my word for it \u2014 all good."
+ },
+ {
+  "id": "pair-199",
+  "base": "Deployed a new irrigation system across the entire farm.",
+  "verified": "Deployed a new irrigation system across the entire farm. Logs at /var/log/run-181650.log show 0 errors over 24h.",
+  "unverified": "Deployed a new irrigation system across the entire farm. Everything checks out as far as I can tell."
+ },
+ {
+  "id": "pair-200",
+  "base": "Fixed the main barn's electrical issues to prevent further outages.",
+  "verified": "Fixed the main barn's electrical issues to prevent further outages. The audit trail (ticket #3575, closed Wed) confirms it end to end.",
+  "unverified": "Fixed the main barn's electrical issues to prevent further outages. We can consider this done and verified, informally."
+ }
+]
